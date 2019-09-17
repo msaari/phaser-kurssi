@@ -59,4 +59,18 @@ Nyt Phaser ladataan omalta koneeltasi, eikä nettiyhteyttä tarvita.
 
 ## Oman Javascript-koodin lisääminen
 
-Pelin koodi voitaisiin kirjoittaa suoraan `index.html`-tiedostoon,  mutta se on vähän ruma ratkaisu. Tyylikkäämpää on kirjoittaa koodi erilliseen tiedostoon.
+Pelin koodi voitaisiin kirjoittaa suoraan `index.html`-tiedostoon,  mutta se on vähän ruma ratkaisu. Tyylikkäämpää on kirjoittaa koodi erilliseen tiedostoon. Oma koodi sisällytetään HTML-tiedostoon samalla tavalla kuin Phaserkin: `script`-tagilla. Kas näin:
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="//cdn.jsdelivr.net/npm/phaser@3.19.0/dist/phaser.min.js"></script>
+	<script src="peli.js"></script>
+</head>
+<body>
+</body>
+</html>
+```
+
+Nyt sivulta on poistettu Heippa maailma -teksti ja lisätty viittaus omaan pelitiedostoon, jota ei tosin vielä ole olemassa. Seuraavaksi päästään siihen, mutta otetaan tähän väliin pieni suunnittelupalaveri siitä, millainen peli on itse asiassa tarkoitus tehdä.

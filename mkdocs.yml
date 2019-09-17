@@ -4,6 +4,8 @@ nav:
 - Kurssi:
   - Perustukset: kurssi/perustukset.md
   - "Hello World": kurssi/helloworld.md
+  - "Suunnittelupalaveri": kurssi/suunnittelupalaveri.md
+  - "Javascript, osa 1": kurssi/javascript.md
 theme:
   name: 'material'
   language: 'fi'
