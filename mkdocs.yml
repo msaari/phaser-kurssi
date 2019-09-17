@@ -1,0 +1,9 @@
+site_name: Pelintekoa Phaserilla
+nav:
+- Etusivu: index.md
+- Kurssi:
+  - Perustukset: kurssi/perustukset.md
+  - "Hello World": kurssi/helloworld.md
+theme:
+  name: 'material'
+  language: 'fi'
