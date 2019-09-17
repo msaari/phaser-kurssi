@@ -5,7 +5,8 @@ nav:
   - Perustukset: kurssi/perustukset.md
   - "Hello World": kurssi/helloworld.md
   - "Suunnittelupalaveri": kurssi/suunnittelupalaveri.md
-  - "Javascript, osa 1": kurssi/javascript.md
+  - "Phaserin perusasetukset": kurssi/phaser-perusasetukset.md
+  - "Alussa on sana": kurssi/sana-spriteksi.md
 theme:
   name: 'material'
   language: 'fi'

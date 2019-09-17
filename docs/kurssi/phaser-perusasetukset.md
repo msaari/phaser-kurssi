@@ -1,4 +1,4 @@
-# Javascriptiä, osa 1
+# Phaserin perusasetukset
 
 Aikaisemmin laitoimme `index.html`-tiedoston lataamaan pelikoodin tiedostosta `peli.js`. Nyt on aika luoda tuo tiedosto ja alustaa sinne Phaserin perusteita.
 
@@ -98,4 +98,4 @@ ja jos katsotaan webbipalvelimen tulostusta, huomaamme, että sivu on ladattu, s
 
 ![palvelimen lokia](kuvat/palvelin.jpg)
 
-Kaikki toimii tähän asti niinkuin pitää!
+Kaikki toimii tähän asti niinkuin pitää! Seuraavassa osassa lisäämme näkymään lisää elementtejä.
