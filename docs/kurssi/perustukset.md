@@ -26,7 +26,7 @@ Document root is /Users/msaari/
 Press Ctrl-C to quit.
 ```
 
-Voit painaa Ctrl-C ja sulkea webbipalvelimen. Asia kunnossa! Tämän pitäisi toimia suoraan Maceissa ja Linux-koneissa.
+Voit painaa Ctrl-C ja sulkea webbipalvelimen. Asia kunnossa! Tämän pitäisi toimia suoraan Maceissa ja Linux-koneissa. Windowsissa PHP:ta ei ole ja asentaminen vaikuttaa melko mutkikkaalta.
 
 ### Python
 
@@ -39,6 +39,8 @@ Jos koneellasi on Pythonin versio 3, oikea komento on:
 	python -m http.server
 
 Tämäkin palvelin suljetaan painamalla Ctrl-C.
+
+Python löytyy Maceista ja Linuxeista, mutta ei Windowsista. [Ohjeita Python-asennukseen Windowsille.](https://docs.python.org/3/using/windows.html)
 
 ### XAMPP
 
