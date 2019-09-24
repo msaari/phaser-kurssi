@@ -7,6 +7,8 @@ nav:
   - "Suunnittelupalaveri": kurssi/suunnittelupalaveri.md
   - "Phaserin perusasetukset": kurssi/phaser-perusasetukset.md
   - "Alussa on sana": kurssi/sana-spriteksi.md
+  - "Syötteiden lukemista": kurssi/syote.md
+  - "Palkinnoksi ääntä ja vimmaa": kurssi/aanta-ja-vimmaa.md
 theme:
   name: 'material'
   language: 'fi'
