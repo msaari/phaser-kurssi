@@ -81,11 +81,11 @@ Tämä toimii! Sanan saa tuhottua kirjoittamalla `heippa`.
 
 Koodissa on tällaisenaan kuitenkin vielä ongelmia. Teksti pitää kirjoittaa täsmälleen oikein eikä tehtyä kirjoitusvirhettä ole mahdollista korjata. Tähän asiaan on muutamia lähestymistapoja, joista voimme valita. Päätämme, että emme halua antaa pelaajille mahdollisuutta korjata tekstiä, vaan se pitää kirjoittaa oikein. Sen verran voidaan kuitenkin helpottaa, että isoista ja pienistä kirjaimista ei tarvitse välittää.
 
-Sen sijaan, että vertailemme koko kirjoitettua sanaa, vertaillaan vain kirjoitetun sanan loppuosaa. Siihen on Javascriptissä valmis `endsWith()`-funktio:
+Sen sijaan, että vertailemme koko kirjoitettua sanaa, vertaillaan vain kirjoitetun sanan loppuosaa. Siihen on Javascriptissä valmis [`endsWith()`-funktio](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith):
 
 	if (event.key.length === 1) kirjoitus += event.key.toLowerCase()
 	if (kirjoitus.endsWith(sana.text)) {
 		sana.destroy()
 	}
 
-Nyt peli toimii kuten pitää: sanan `heippa` saa tuhottua kun kirjoittaa `heippa`, vaikka ennen sitä olisi kirjoittanut mitä. Isot ja pienet kirjaimet hoidetaan muuttamalla kaikki syötetyt kirjaimet pieniksi `.toLowerCase()`-funktiolla.
+Nyt peli toimii kuten pitää: sanan `heippa` saa tuhottua kun kirjoittaa `heippa`, vaikka ennen sitä olisi kirjoittanut mitä. Isot ja pienet kirjaimet hoidetaan muuttamalla kaikki syötetyt kirjaimet pieniksi [`.toLowerCase()`-funktiolla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase).
